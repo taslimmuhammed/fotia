@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/fotia/static/css/main.67b5b1e9.chunk.css",
+    "main.js": "/fotia/static/js/main.b4361677.chunk.js",
+    "main.js.map": "/fotia/static/js/main.b4361677.chunk.js.map",
+    "runtime-main.js": "/fotia/static/js/runtime-main.21c205dc.js",
+    "runtime-main.js.map": "/fotia/static/js/runtime-main.21c205dc.js.map",
+    "static/css/2.a2bc7d03.chunk.css": "/fotia/static/css/2.a2bc7d03.chunk.css",
+    "static/js/2.f61cd4be.chunk.js": "/fotia/static/js/2.f61cd4be.chunk.js",
+    "static/js/2.f61cd4be.chunk.js.map": "/fotia/static/js/2.f61cd4be.chunk.js.map",
+    "static/js/3.7c597dbf.chunk.js": "/fotia/static/js/3.7c597dbf.chunk.js",
+    "static/js/3.7c597dbf.chunk.js.map": "/fotia/static/js/3.7c597dbf.chunk.js.map",
+    "index.html": "/fotia/index.html",
+    "static/css/2.a2bc7d03.chunk.css.map": "/fotia/static/css/2.a2bc7d03.chunk.css.map",
+    "static/css/main.67b5b1e9.chunk.css.map": "/fotia/static/css/main.67b5b1e9.chunk.css.map",
+    "static/js/2.f61cd4be.chunk.js.LICENSE.txt": "/fotia/static/js/2.f61cd4be.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/fotia/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21c205dc.js",
+    "static/css/2.a2bc7d03.chunk.css",
+    "static/js/2.f61cd4be.chunk.js",
+    "static/css/main.67b5b1e9.chunk.css",
+    "static/js/main.b4361677.chunk.js"
+  ]
+}
