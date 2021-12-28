@@ -1,0 +1,64 @@
+.view-img{
+    display: flex;
+    padding:50px;
+}
+.Product{
+  width: 100%;
+  
+}
+.t5{
+    color: white;
+    font-size: 17px;
+    /* text-align: center; */
+    width: 100%;
+}
+.t6{
+  color: white;
+  font-size: 25px;
+  /* text-align: center; */
+  width: 100%;
+  padding: 20px;
+}
+
+.text-main{
+  margin-left: 20px;
+}
+@media only screen and (min-width: 768px){
+  .text-main{
+    margin-left: 20px;
+  padding-top: 50px;
+  }
+}
+.hr{
+  width: 90%;
+  height: 2px;
+  background-color: burlywood;
+}
+.map-1{
+ display: flex;
+ justify-content: center;
+ padding: 10px 10px 50px 10px;
+}
+.map-2{
+  height: 425px;
+  width: 100%;
+  max-width: 400px;
+
+}
+.t7{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin-top: 50px;
+}
+.btn-5{
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+}
+.btn-6{
+  width: 75px;
+}

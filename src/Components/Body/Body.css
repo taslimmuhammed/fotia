@@ -1,0 +1,135 @@
+.main{
+    background-color: rgba(35, 47, 57, 1);
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+
+}
+.f11{
+/* width: 104px; */
+height: 36px;
+background: #15A408;
+border-radius: 10px;
+margin: 30px;
+padding: 7px;
+
+}
+.f12{
+width: 75px;
+height: 36px;
+background: #EC0C34;
+border-radius: 7px;
+margin: 30px;
+padding: 7px;
+}
+.c-main{
+    margin-top: 25px;
+
+}
+.card-main{
+    background-color: rgba(50, 73, 88, 1);
+width: 181px;
+height: 256px;
+background: #324958;
+border-radius: 20px;
+color: white;
+text-align: center;
+margin-top: 75px;
+box-shadow: 5px 5px 5px #00000031;
+
+}
+.card-main-1{
+  background-color: rgba(50, 73, 88, 1);
+width: 181px;
+height: 300px;
+background: #324958;
+border-radius: 20px;
+color: white;
+text-align: center;
+margin-top: 75px;
+box-shadow: 5px 5px 5px #00000031;
+
+}
+.c-0{
+    display: flex;
+    justify-content: center;
+}
+.card-heading{
+    font-size: 30px;
+    font-weight: 600;
+   
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-height: 50vh;
+    overflow-y: scroll;
+     top: 60px;
+     background-image: linear-gradient(to bottom right, rgb(46, 95, 70), yellow);
+     margin: -10px
+  
+  
+  }
+  .dropdown-content::-webkit-scrollbar{
+    
+  }
+  .show {display:block;}
+  
+  .drop-box{
+   
+    color:white;
+    margin: .12rem;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #f1f1f1;
+    
+  
+  }
+  .show {display:block;}
+
+.drop-box{
+ 
+  color: white;
+  margin: .12rem;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px;
+  background-color: #15A408;
+  
+
+}
+.udrop{
+  display: none;
+  position: absolute;
+  background-color: #15A408;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height: 50vh;
+  overflow-y: scroll;
+   top: 70px;
+   margin: -10px;
+   
+
+}
+.show2 {display:block;}
+.udrop::-webkit-scrollbar{
+  display: none;
+}
+.f2{
+    display: flex;
+}
+.bt1{
+  margin-top: 10px;
+}

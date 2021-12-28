@@ -1,0 +1,39 @@
+.centerDiv {
+    border: 1px solid black;
+    width: max-content;
+    padding: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    color: snow;
+    box-shadow: 5px 5px 5px #00000031; 
+    font-size: 17px;
+  }
+  .input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+  }
+  
+  .uploadBtn {
+    margin-top: 30px;
+    width: 100%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #af0a0a;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .uploadBtn:hover {
+    background-color: white;
+    color: #bd132a;
+    border: 2px solid #002f34;
+  }
+  .c1{
+    width:185px;
+    height: .1rem;
+    background-color: black;
+  }

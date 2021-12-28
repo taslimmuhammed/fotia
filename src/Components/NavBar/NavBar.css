@@ -1,0 +1,25 @@
+.n1{
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  /* padding-top: 10px; */
+  font-size: 36px;
+  margin-right: 50px;
+}
+.n2{
+  margin-left: 15vw;
+  margin-right: 10vw;
+}
+.nav1{
+  width: 80%;
+  display: flex;
+  justify-content: end;
+}
+.s1{
+  background-color:white;
+  color: rgb(31, 30, 30);
+  padding: 3px;
+  border-radius: 3px;
+}
