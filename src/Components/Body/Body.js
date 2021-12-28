@@ -15,7 +15,7 @@ function Body() {
     const history = useHistory();
     const {firebase} = useContext(FireBaseContext);
     const [products , setProducts]=useState([]);
-    const {PostDetails, setPostDetails} = useContext(PostContext);
+    const {setPostDetails} = useContext(PostContext);
     
     useEffect(() => {
         firebase.firestore().collection('products').get().then((snapshot)=>{
