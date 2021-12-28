@@ -29,7 +29,6 @@ export default function Signup() {
     <div className="l1">
       <ProNav/>
       <div className="signupParentDiv">
-        {/* <img width="200px" height="200px" src={Logo}></img> */}
         <form  onSubmit={handleSubmit}>
           <label htmlFor="fname">Username</label>
           <br />

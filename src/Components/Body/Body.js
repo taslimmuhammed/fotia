@@ -58,6 +58,9 @@ function Body() {
         
     {/* Mid-Part */}
 
+
+
+
     <div className="c-main">
         <Row>
             {
@@ -82,12 +85,7 @@ function Body() {
             }
        
         </Row>
-
-
     </div>
-
-         
-
         </div>
     )
 }
