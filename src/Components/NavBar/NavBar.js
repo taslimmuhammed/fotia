@@ -15,7 +15,6 @@ function ProNav() {
     <Navbar.Brand to="#home"><div className="n1">Fotia</div></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-   
       <Nav className="nav1">
         <Nav.Link to="#" >About</Nav.Link>
         <Nav.Link eventKey={2}  to="myproducts" onClick={()=>history.push('/myproducts')}>
@@ -29,7 +28,7 @@ function ProNav() {
                }).catch((error) => {
                  console.log(`Error Occured. Could'nt SignOut`)
                });
-              //  history.push("/signup");
+    
          }
         }>Log_Out</Nav.Link>:
         <Nav.Link to="/login" onClick={()=>history.push('/login')}>LogIn</Nav.Link>}
