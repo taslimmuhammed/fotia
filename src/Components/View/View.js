@@ -1,7 +1,6 @@
 import './View.css'
-import { Card, Row, Col, Button } from 'react-bootstrap'
+import {Row, Col, Button } from 'react-bootstrap'
 import { useState, useContext, useEffect } from 'react';
-import { useHistory } from 'react-router';
 import { PostContext } from '../../store/PostContext'
 import { FireBaseContext, AuthContext } from '../../store/FireBaseContext';
 import ProNav from '../NavBar/NavBar';
@@ -10,8 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 function View() {
   AOS.init();
-  const [userDetails, setuserDetails] = useState();
-  const {postDetails} = useContext(PostContext);
+  const [setuserDetails] = useState();
   const {PostDetails, setPostDetails} = useContext(PostContext);
   const {firebase} = useContext(FireBaseContext);
   useEffect(() => {
@@ -69,9 +67,7 @@ function View() {
             </Row>
             <div className="t7" data-aos="fade-up">Location:</div>
             <div className="map-1"  data-aos="fade-up">
-             {/* <div className="map-2"> */}
                <img  className="map-2" src="https://xmonkeys360.com/wp-content/uploads/2020/02/Googlemap-600x551-1.jpg"></img>
-             {/* </div> */}
             </div>
         </div>
     )

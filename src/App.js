@@ -32,7 +32,6 @@ const {firebase} = useContext(FireBaseContext)
     <div>
   <Seacher>
    <Switch>
-   
     <Route exact path="/" ><HomeScreen/></Route>
     <Route path="/signup" ><Signup></Signup></Route>
     <Redirect to='/' path="/fotia"> </Redirect>
@@ -47,5 +46,4 @@ const {firebase} = useContext(FireBaseContext)
 
   );
 }
-
 export default App;
