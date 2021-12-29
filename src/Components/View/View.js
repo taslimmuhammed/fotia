@@ -9,9 +9,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 function View() {
   AOS.init();
-  const [setuserDetails] = useState();
+  const [userdetails, setuserDetails] = useState();
   const {PostDetails, setPostDetails} = useContext(PostContext);
   const {firebase} = useContext(FireBaseContext);
+  
+  const map = `https://maps.google.com/maps?width=322&amp;height=400&amp;hl=en&amp;q=${PostDetails.location1.latitude}, ${PostDetails.location1.longitude}&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed`
   useEffect(() => {
     const {userId} = PostDetails;
     firebase.firestore().collection('users').where('id','==',userId)
@@ -67,7 +69,10 @@ function View() {
             </Row>
             <div className="t7" data-aos="fade-up">Location:</div>
             <div className="map-1"  data-aos="fade-up">
-               <img  className="map-2" src="https://xmonkeys360.com/wp-content/uploads/2020/02/Googlemap-600x551-1.jpg"></img>
+               {/* <img  className="map-2" src="https://xmonkeys360.com/wp-content/uploads/2020/02/Googlemap-600x551-1.jpg"></img> */}
+               <div className="mapouter map-2"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+               src={map}>
+                 </iframe><a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div></div>
             </div>
         </div>
     )

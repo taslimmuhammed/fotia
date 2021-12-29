@@ -2,7 +2,7 @@
   "name": "cladis",
   "version": "0.1.0",
   "homepage": "http://taslimmuhammed.github.io/fotia",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
